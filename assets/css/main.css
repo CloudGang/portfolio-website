@@ -124,6 +124,9 @@ input, select, textarea {
 			html {
 				font-size: 12pt;
 			}
+			.image-face {
+				width: 30%;
+			}
 
 		}
 
@@ -132,6 +135,9 @@ input, select, textarea {
 			html {
 				font-size: 11pt;
 			}
+			.image-face {
+				width: 30%;
+			}
 
 		}
 
@@ -139,6 +145,9 @@ input, select, textarea {
 
 			html {
 				font-size: 10pt;
+			}
+			.image-face {
+				width: 30%;
 			}
 
 		}
