@@ -2624,7 +2624,6 @@ input, select, textarea {
 		.image.right {
 			float: right;
 			margin: 0 0 2rem 2rem;
-			top: 0.75rem;
 		}
 
 		.image.fit {
@@ -3243,7 +3242,7 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			background-color: #212931;
-			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
+			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg1.jpg");
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
 			background-repeat: repeat,								no-repeat,													no-repeat;
@@ -3479,7 +3478,7 @@ input, select, textarea {
 
 			#intro {
 				padding: 3rem 2rem 1rem 2rem ;
-				min-height: 80vh;
+				min-height: 40vh;
 			}
 
 				#intro h1 {
@@ -4723,9 +4722,21 @@ input, select, textarea {
 	phorm {
 		border-color: red;
 	}
-	cont {
-
+	.donate {
+		width: 5%;
+		}
+	.image.fit {
+		display: block;
+		position: relative;
+		left: 25%;
+		width: 50%;
 	}
 	#intro + #header .logo {
 		color: #18bfef !important;
+	}
+	.image-face {
+				width: 30%;
+			}
+	.image.fit #drown {
+		width: 150%;
 	}
